@@ -9,7 +9,7 @@ int buz = 4;
 int btn = 5;
 
 void setup() {
-
+  
   lcd.begin(16, 2);
   lcd.init();
   lcd.setBacklight(HIGH);
@@ -17,7 +17,7 @@ void setup() {
   pinMode(btn, INPUT_PULLUP);
 
   for (int i = led_On; i < 6; i++) {
-    pinMode(i, OUTPUT);
+    pinMode(i,OUTPUT);
   }
 
 }
